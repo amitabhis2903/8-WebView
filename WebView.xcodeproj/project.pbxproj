@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524A74D91DB3F2D500483BEA /* textFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 524A74D81DB3F2D500483BEA /* textFile.txt */; };
+		524A74DB1DB3F68900483BEA /* pdfFile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A74DA1DB3F68900483BEA /* pdfFile.pdf */; };
+		524A74DD1DB3F84100483BEA /* htmlFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 524A74DC1DB3F84100483BEA /* htmlFile.html */; };
 		52AD65E61DB2C46C00716770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD65E51DB2C46C00716770 /* AppDelegate.swift */; };
 		52AD65E81DB2C46C00716770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD65E71DB2C46C00716770 /* ViewController.swift */; };
 		52AD65EB1DB2C46C00716770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AD65E91DB2C46C00716770 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524A74D81DB3F2D500483BEA /* textFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textFile.txt; sourceTree = "<group>"; };
+		524A74DA1DB3F68900483BEA /* pdfFile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfFile.pdf; sourceTree = "<group>"; };
+		524A74DC1DB3F84100483BEA /* htmlFile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = htmlFile.html; sourceTree = "<group>"; };
 		52AD65E21DB2C46C00716770 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AD65E51DB2C46C00716770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52AD65E71DB2C46C00716770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		52AD65E41DB2C46C00716770 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				524A74DC1DB3F84100483BEA /* htmlFile.html */,
+				524A74DA1DB3F68900483BEA /* pdfFile.pdf */,
+				524A74D81DB3F2D500483BEA /* textFile.txt */,
 				52AD65E51DB2C46C00716770 /* AppDelegate.swift */,
 				52AD65E71DB2C46C00716770 /* ViewController.swift */,
 				52AD65E91DB2C46C00716770 /* Main.storyboard */,
@@ -126,6 +135,9 @@
 				52AD65F01DB2C46C00716770 /* LaunchScreen.storyboard in Resources */,
 				52AD65ED1DB2C46C00716770 /* Assets.xcassets in Resources */,
 				52AD65EB1DB2C46C00716770 /* Main.storyboard in Resources */,
+				524A74DB1DB3F68900483BEA /* pdfFile.pdf in Resources */,
+				524A74D91DB3F2D500483BEA /* textFile.txt in Resources */,
+				524A74DD1DB3F84100483BEA /* htmlFile.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Akhmed-Idigov.WebView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Akhmed-Idigov.WebView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +313,7 @@
 				52AD65F61DB2C46C00716770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
